@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fathima H — Python Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/a2d9b1e3f2.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <canvas id="bgCanvas" aria-hidden="true"></canvas>
+    <!-- Intro overlay with sparkles (opening slide) -->
+    <div id="introOverlay" class="intro-overlay" aria-hidden="false">
+      <div class="intro-center">
+        <div class="intro-logo">FATHIMA H</div>
+        <div class="intro-sub">Python Full Stack Developer</div>
+      </div>
+      <div class="sparkles" aria-hidden="true"></div>
+    </div>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="#">FATHIMA H</a>
+        <div class="nav-right">
+          <button class="theme-toggle" aria-label="toggle theme">🌙</button>
+          <button class="nav-toggle" aria-label="toggle navigation">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#resume" id="navResume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-content">
+          <h1 id="heroName">FATHIMA H</h1>
+          <p class="sub">Python Full Stack Developer | Software Developer | AI Enthusiast</p>
+          <div class="role-rotator">
+            <span id="roleText">Python Full Stack Developer</span>
+            <span class="cursor">|</span>
+          </div>
+          <blockquote>"One code can change the world."</blockquote>
+          <p class="lead">I am a final-year Computer Science Engineering student passionate about building innovative software solutions, exploring Artificial Intelligence, and developing impactful web applications.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="assets/Fathima_Resume.pdf" download class="btn outline">Download Resume</a>
+            <a href="#contact" class="btn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-shape" aria-hidden="true"></div>
+          <div class="floaters" aria-hidden="true">
+            <span class="floater f1"></span>
+            <span class="floater f2"></span>
+            <span class="floater f3"></span>
+          </div>
+          <div class="card"> 
+            <h3>Interested in Python, AI & Web</h3>
+            <p>Building clean, maintainable web apps and experimenting with machine learning.</p>
+            <div class="meta">Python · Flask · React · ML</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container section">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="about-photo reveal" data-delay="60">
+            <div class="glows" aria-hidden="true">
+              <span class="glow g1"></span>
+              <span class="glow g2"></span>
+              <span class="glow g3"></span>
+              <span class="glow g4"></span>
+            </div>
+            <div class="photo-float" id="photoFloat">
+              <img src="hero.jpeg" alt="Fathima H" />
+            </div>
+          </div>
+          <div>
+            <h3 class="reveal" data-delay="0">About Fathima</h3>
+            <p class="reveal" data-delay="120">Hello! I'm <strong>Fathima H</strong>, a Computer Science Engineering student with a strong interest in Python development, full-stack web technologies, and artificial intelligence. I enjoy transforming ideas into practical software solutions and continuously learning new technologies.</p>
+            <p class="reveal" data-delay="240">My goal is to contribute to innovative technology solutions while growing into a skilled software engineer capable of creating products that make a positive impact.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><strong>Final Year</strong><span>Computer Science</span></div>
+            <div class="stat"><strong>CGPA</strong><span>8.5 (Expected)</span></div>
+            <div class="stat"><strong>Location</strong><span>Pattukottai, India</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-delay="40">
+            <h4>Programming</h4>
+            <p>Python · C · JavaScript</p>
+            <div class="skill-meter" data-percent="90"><span class="meter-label">0%</span></div>
+          </div>
+          <div class="skill-card reveal" data-delay="80">
+            <h4>Frontend</h4>
+            <p>HTML5 · CSS3 · Bootstrap · ReactJS</p>
+            <div class="skill-meter" data-percent="80"><span class="meter-label">0%</span></div>
+          </div>
+          <div class="skill-card reveal" data-delay="120">
+            <h4>Backend</h4>
+            <p>Python · Flask · Node.js · Express</p>
+            <div class="skill-meter" data-percent="75"><span class="meter-label">0%</span></div>
+          </div>
+          <div class="skill-card reveal" data-delay="160">
+            <h4>Database</h4>
+            <p>MongoDB · MySQL</p>
+            <div class="skill-meter" data-percent="70"><span class="meter-label">0%</span></div>
+          </div>
+          <div class="skill-card reveal" data-delay="200">
+            <h4>Tools</h4>
+            <p>Git · GitHub · VS Code</p>
+            <div class="skill-meter" data-percent="85"><span class="meter-label">0%</span></div>
+          </div>
+          <div class="skill-card reveal" data-delay="240">
+            <h4>Concepts</h4>
+            <p>DSA · DBMS · OS · OOP</p>
+            <div class="skill-meter" data-percent="80"><span class="meter-label">0%</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="internships" class="container section">
+        <h2>Internships</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>AI Internship — Novitech</h3>
+            <ul>
+              <li>Worked on Artificial Intelligence concepts.</li>
+              <li>Explored machine learning fundamentals.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Data Analytics Internship — Novitech</h3>
+            <ul>
+              <li>Data visualization and analysis.</li>
+              <li>Data-driven decision making.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Web Dev Internship — Corizo</h3>
+            <ul>
+              <li>Frontend and backend development.</li>
+              <li>Building responsive web applications.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="container section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="pc-header">
+              <h3>Smart Expense Tracker</h3>
+              <span class="tag">Python</span>
+            </div>
+            <p>Manage expenses, categories and visualize spending trends.</p>
+            <div class="pc-actions">
+              <a href="#" class="btn outline">Live</a>
+              <a href="#" class="btn">Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="pc-header">
+              <h3>Flask Blog Website</h3>
+              <span class="tag">Flask</span>
+            </div>
+            <p>Dynamic blogging platform with user auth and CMS features.</p>
+            <div class="pc-actions">
+              <a href="#" class="btn outline">Live</a>
+              <a href="#" class="btn">Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="pc-header">
+              <h3>Pizza Order Chatbot</h3>
+              <span class="tag">Dialogflow</span>
+            </div>
+            <p>Conversational bot to automate pizza ordering flows.</p>
+            <div class="pc-actions">
+              <a href="#" class="btn outline">Demo</a>
+              <a href="#" class="btn">Repo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="pc-header">
+              <h3>E-Commerce Website</h3>
+              <span class="tag">Full-Stack</span>
+            </div>
+            <p>Responsive online shopping platform with product management.</p>
+            <div class="pc-actions">
+              <a href="#" class="btn outline">Live</a>
+              <a href="#" class="btn">Repo</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="container section">
+        <h2>Education</h2>
+        <div class="card">
+          <h3>Bachelor of Engineering — Computer Science and Engineering</h3>
+          <p>University College of Engineering, Pattukottai — Expected Graduation: 2026</p>
+          <p>CGPA: 8.5</p>
+        </div>
+      </section>
+
+      <section id="certificates" class="container section">
+        <h2>Certificates</h2>
+        <ul class="list">
+          <li>Artificial Intelligence Internship Certificate</li>
+          <li>Data Analytics Internship Certificate</li>
+          <li>Web Development Internship Certificate</li>
+          <li>C Programming Certificate</li>
+        </ul>
+      </section>
+
+      <section id="resume" class="container section">
+        <h2>Resume</h2>
+        <div class="card resume-card">
+          <p><strong>Highlights:</strong> Final-Year CSE Student · Python Full Stack Developer Aspirant · AI & Data Analytics Internship Experience · Multiple Projects · Strong Problem-Solving Skills</p>
+          <div class="pc-actions" style="margin-top:1rem">
+            <a href="#" id="openResume" class="btn primary">Preview Resume</a>
+            <a href="Fathima_H_PYTHON%20FULLSTACK%20DEVELOPER_Resume.pdf" id="downloadResume" download class="btn outline">Download PDF</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resume Modal -->
+      <div id="resumeModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+          <button class="modal-close" aria-label="close">×</button>
+          <iframe src="Fathima_H_PYTHON%20FULLSTACK%20DEVELOPER_Resume.pdf" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <section id="contact" class="container section">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div>
+            <p>📧 <a href="mailto:fathimakwt449@gmail.com">fathimakwt449@gmail.com</a></p>
+            <p>📱 7904596722</p>
+            <p>🌐 <a href="https://www.linkedin.com/in/fathima-cse07" target="_blank" rel="noreferrer">LinkedIn — fathima-cse07</a></p>
+          </div>
+          <form class="contact-form" action="mailto:fathimakwt449@gmail.com" method="get" enctype="text/plain">
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea name="body" rows="6" placeholder="Message" required></textarea>
+            <button type="submit" class="btn primary">Send Email</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2026 Fathima H — Built with HTML, CSS & JavaScript</div>
+    </footer>
+  </body>
+</html>
